@@ -17,6 +17,8 @@ eng:
   exclude_titles:
     - WIP
 
+  use_labels: true
+
   exclude_labels:
     - WIP
 
