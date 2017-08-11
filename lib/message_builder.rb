@@ -51,8 +51,8 @@ class MessageBuilder
     angry_bark = old_pull_requests.keys.each_with_index.map { |title, n| present(title, n + 1) }
     recent_pull_requests = @content.reject { |_title, pr| rotten?(pr) }
     list_recent_pull_requests = recent_pull_requests.keys.each_with_index.map { |title, n| present(title, n + 1) }
-    informative_bark = "There are also these pull requests that need to be reviewed today:\n\n#{list_recent_pull_requests.join} " if !recent_pull_requests.empty?
-    "AAAAAAARGH! #{these(old_pull_requests.length)} #{pr_plural(old_pull_requests.length)} not been updated in over 2 days.\n\n#{angry_bark.join}\nRemember each time you forget to review your pull requests, a baby seal dies.
+    informative_bark = "_There are also these pull requests that need to be reviewed today:_\n\n#{list_recent_pull_requests.join} " if !recent_pull_requests.empty?
+    "*AAAAAAARGH!*\n\n_#{these(old_pull_requests.length)} #{pr_plural(old_pull_requests.length)} not been updated in over 2 days._\n\n#{angry_bark.join}\n_Remember each time you forget to review your pull requests, a baby seal dies._
     \n\n#{informative_bark}"
   end
 
@@ -99,6 +99,7 @@ class MessageBuilder
     <<-EOF.gsub(/^\s+/, '')
     #{index}\) *#{pr["repo"]}* | #{pr["author"]} | updated #{days_plural(days)}#{thumbs_up}#{approved}
     #{labels(pr)} <#{pr["link"]}|#{pr["title"]}> - #{pr["comments_count"]}#{comments(pull_request)}
+
     EOF
   end
 
