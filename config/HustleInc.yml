@@ -1,0 +1,26 @@
+# Please insert new items alphabetically.
+eng:
+  members:
+    - lklots
+    - matteobanerjee
+    - matthewferry
+    - noahsilas
+    - rachelleluyanlee
+    - TJTorola
+    - TylerBrock
+    - ariisrael
+    - EddyIonescu
+    - isisAnchalee
+
+  channel: "#angry-seal-bot-test"
+
+  exclude_titles:
+    - WIP
+
+  exclude_labels:
+    - WIP
+
+  quotes:
+    - ":eggplant:"
+    - "indeed"
+    - "naming is hard"
