@@ -12,7 +12,7 @@ eng:
     - EddyIonescu
     - isisAnchalee
 
-  channel: "#angry-seal-bot-test"
+  channel: "#engineering"
 
   exclude_titles:
     - WIP
