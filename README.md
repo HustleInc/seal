@@ -1,6 +1,13 @@
 # Seal
 [![Build Status](https://travis-ci.org/binaryberry/seal.svg)](https://travis-ci.org/binaryberry/seal)
 
+
+## How to run the Hustle seal
+`export GITHUB_TOKEN="<TOKEN>"
+ export SEAL_ORGANISATION="HustleInc"
+ export SLACK_WEBHOOK="https://hooks.slack.com/services/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"
+ heroku run --app hustle-github-seal bin/seal.rb eng`
+
 ## What is it?
 
 This is a Slack bot that publishes a team's pull requests to their Slack Channel, once provided the organisation name and the team members' github names. It is my first 20% project at GDS.
@@ -25,7 +32,7 @@ export SLACK_WEBHOOK="get_your_incoming_webhook_link_for_your_slack_group_channe
 
 ### Env variables
 
-Another option, which is 12-factor-app ready is to use ENV variables for basically everything. 
+Another option, which is 12-factor-app ready is to use ENV variables for basically everything.
 In that case you don't need a config file at all.
 
 Divider is ',' (comma) symbol.
