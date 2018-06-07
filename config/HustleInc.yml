@@ -17,6 +17,8 @@ eng:
     - higgins
     - Lizard381
     - matthewferry
+    - MatrixFrog
+    - ibash
 
   channel: "#engineering"
 
