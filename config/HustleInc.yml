@@ -1,31 +1,6 @@
-# Please insert new items alphabetically.
+#members is intentionally left empty since this means 'all members of the github organization'
 eng:
   members:
-    - lklots
-    - matteobanerjee
-    - matthewferry
-    - noahsilas
-    - rachelleluyanlee
-    - TJTorola
-    - TylerBrock
-    - ariisrael
-    - isisAnchalee
-    - loganmhb
-    - manuelsabu
-    - esarachan
-    - gellingson
-    - higgins
-    - Lizard381
-    - matthewferry
-    - MatrixFrog
-    - ibash
-    - ninachaubal
-    - richardharrington
-    - caplis
-    - Filip-F
-    - kingdavidmartins
-    - robertbourbonnais
-    - ClaireNeveu
 
   channel: "#engineering"
 
