@@ -1,6 +1,6 @@
 #members is intentionally left empty since this means 'all members of the github organization'
 eng:
-  members:
+  members: []
 
   channel: "#engineering"
 
