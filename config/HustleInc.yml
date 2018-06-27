@@ -11,6 +11,7 @@ eng:
 
   exclude_labels:
     - WIP
+    - "needs update"
 
   quotes:
     - ":eggplant:"
