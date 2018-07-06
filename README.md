@@ -15,10 +15,15 @@ This is a Slack bot that publishes a team's pull requests to their Slack Channel
 ![image](https://github.com/binaryberry/seal/blob/master/images/readme/informative.png)
 ![image](https://github.com/binaryberry/seal/blob/master/images/readme/angry.png)
 
+You can see whether the seal is going to be angry or not, by running
+[this search query](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3AHustleInc+sort%3Aupdated-asc):
+If there are any PRs that were updated more than two days ago, the seal is
+going to be angry.
+
 ## How to use it?
 
 ### Config file
-Fork the repo and add/change the config file that relates to your github organisation. For example, the alphagov config file is located at [config/alphagov.yml](https://github.com/binaryberry/seal/blob/master/config/alphagov.yml).
+Fork the repo and add/change the config file that relates to your github organisation. For example, the Hustle config file is located at [config/HustleInc.yml](https://github.com/binaryberry/seal/blob/master/config/HustleInc.yml).
 
 Include your team's name, the Github names of your team members, and the Slack channel you want to post to.
 
