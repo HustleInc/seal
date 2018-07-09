@@ -12,6 +12,8 @@ eng:
   exclude_labels:
     - WIP
     - "needs update"
+    - "proposal"
+    - "waiting on requirements"
 
   quotes:
     - ":eggplant:"
