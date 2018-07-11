@@ -16,7 +16,7 @@ This is a Slack bot that publishes a team's pull requests to their Slack Channel
 ![image](https://github.com/binaryberry/seal/blob/master/images/readme/angry.png)
 
 You can see whether the seal is going to be angry or not, by running
-[this search query](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3AHustleInc+sort%3Aupdated-asc):
+[this search query](https://github.com/pulls?utf8=✓&q=is%3Aopen+is%3Apr+user%3AHustleInc+sort%3Aupdated-asc+-label%3Awip+-label%3Aproposal+-label%3A"needs+update"+-label%3A"waiting+on+requirements"):
 If there are any PRs that were updated more than two days ago, the seal is
 going to be angry.
 
